@@ -36,9 +36,14 @@
   <text x="55" y="375" fill="#fbbf24" font-size="14"
         font-family="Arial">THE GRAND LINE • MY DEVELOPER VOYAGE</text>
 
-  <image href="https://raw.githubusercontent.com/Jeevan-Josh/Jeevan-Josh/main/assets/pirate-avatar-reference-removebg-preview.png"
-         x="625" y="25" width="330" height="370"
-         preserveAspectRatio="xMidYMid meet"/>
+  <image
+  href="https://raw.githubusercontent.com/Jeevan-Josh/Jeevan-Josh/main/assets/pirate-avatar-reference-removebg-preview.png"
+  x="650"
+  y="20"
+  width="300"
+  height="380"
+  preserveAspectRatio="xMidYMid meet"
+/>
 
   <path d="M0 400 Q250 360 500 400 T1000 400"
         stroke="#22d3ee" fill="none" stroke-width="3">
