@@ -8,6 +8,9 @@
 <div align="center">
   <img src="about.svg" width="100%" alt="The Grand Line — My Journey" />
 </div>
+<div align="center">
+  <img src="about.svg" width="100%" alt="The Grand Line — My Journey" />
+</div>
 
 ## Hi there 👋
 
