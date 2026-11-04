@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">The Grand Line — My Journey</title>
+  <desc id="description">A cinematic nautical chart showing a developer's journey across Java, JavaScript and React, Salesforce, AWS, and AI research islands.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#061421"/>
+      <stop offset=".52" stop-color="#0b2940"/>
+      <stop offset="1" stop-color="#071a2b"/>
+    </linearGradient>
+    <linearGradient id="parchment" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#d8c398"/>
+      <stop offset=".18" stop-color="#c5ae7e"/>
+      <stop offset=".8" stop-color="#ad9362"/>
+      <stop offset="1" stop-color="#806846"/>
+    </linearGradient>
+    <linearGradient id="land" x1=".1" y1="0" x2=".85" y2="1">
+      <stop stop-color="#d7c58e"/>
+      <stop offset=".5" stop-color="#9f9b68"/>
+      <stop offset="1" stop-color="#586e5c"/>
+    </linearGradient>
+    <linearGradient id="landLight" x1="0" y1="0" x2=".85" y2="1">
+      <stop stop-color="#e6d39c"/>
+      <stop offset="1" stop-color="#82916b"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e2d5b3"/>
+      <stop offset=".42" stop-color="#87917d"/>
+      <stop offset="1" stop-color="#485f58"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#9a7138"/>
+      <stop offset=".5" stop-color="#f0ce7a"/>
+      <stop offset="1" stop-color="#b58a4a"/>
+    </linearGradient>
+    <radialGradient id="sunGlow">
+      <stop stop-color="#f0cd7a" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#f0cd7a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shoreLight" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff0bd" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#fff0bd" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="chartGrid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#90b1b8" stroke-opacity=".08" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.5" fill="#c6d4c6" fill-opacity=".12"/>
+    </pattern>
+    <pattern id="paperGrain" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M8 16l2 1m29 15 1-2m24 37 2 1M18 65l1-2m48-51 2 1" stroke="#453823" stroke-opacity=".14" stroke-width="1"/>
+      <circle cx="54" cy="23" r=".8" fill="#fff2cb" fill-opacity=".2"/>
+      <circle cx="19" cy="43" r=".7" fill="#fff2cb" fill-opacity=".18"/>
+    </pattern>
+    <g id="tree">
+      <path d="M0-1v10" stroke="#554b34" stroke-width="2"/>
+      <path d="M0-14c-3 3-6 7-7 11 2 2 4 2 6 1-1 3-2 4-2 5 3 1 7 1 10-1-2-2-2-3-3-5 3 1 5 0 6-2-2-4-5-7-10-9z" fill="#435b48"/>
+      <path d="M-5-7c2-3 4-5 6-5 3 2 4 4 5 7-3 1-5 0-7-1-1 2-2 4-4 5-2-1-3-2-3-3z" fill="#71805a"/>
+      <path d="M1-12c2 2 3 4 4 6" fill="none" stroke="#a2a176" stroke-opacity=".65" stroke-width=".8"/>
+    </g>
+    <marker id="routeArrow" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0L7 3.5 0 7 2 3.5z" fill="#f1d083" fill-opacity=".92"/>
+    </marker>
+    <g id="wave">
+      <path d="M0 0q8-5 16 0t16 0" fill="none" stroke="#8bb4bb" stroke-opacity=".28" stroke-width="1.4"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="760" rx="22" fill="#09131c"/>
+  <rect x="14" y="14" width="1172" height="732" rx="18" fill="url(#parchment)"/>
+  <rect x="25" y="25" width="1150" height="710" rx="13" fill="#102337" stroke="#e0c58c" stroke-opacity=".62" stroke-width="1.5"/>
+  <rect x="34" y="34" width="1132" height="692" rx="10" fill="url(#sea)"/>
+  <rect x="34" y="34" width="1132" height="692" rx="10" fill="url(#chartGrid)"/>
+  <rect x="34" y="34" width="1132" height="692" rx="10" fill="url(#paperGrain)" opacity=".34"/>
+  <ellipse cx="612" cy="402" rx="370" ry="265" fill="url(#sunGlow)"/>
+
+  <g fill="none" stroke="#85a6aa" stroke-opacity=".14">
+    <path d="M52 190c100-68 214-80 324-34 90 38 169 39 252 8 118-43 240-28 338 23 62 32 121 35 178 14"/>
+    <path d="M47 198c98-65 210-76 319-31 94 39 169 39 255 7 117-43 238-27 336 22 63 31 119 35 183 12"/>
+    <path d="M57 633c113-59 214-63 315-18 83 37 163 36 246 8 112-38 222-31 322 7 70 27 140 31 208 13"/>
+    <path d="M59 641c111-56 211-60 311-16 84 38 163 37 247 8 111-38 221-29 321 8 73 27 140 29 207 11"/>
+  </g>
+  <g opacity=".8">
+    <use href="#wave" x="470" y="198"/><use href="#wave" x="512" y="208"/>
+    <use href="#wave" x="746" y="211"/><use href="#wave" x="782" y="221"/>
+    <use href="#wave" x="436" y="550"/><use href="#wave" x="474" y="562"/>
+    <use href="#wave" x="774" y="596"/><use href="#wave" x="810" y="607"/>
+    <use href="#wave" x="1045" y="362"/><use href="#wave" x="1076" y="374"/>
+    <use href="#wave" x="132" y="465"/><use href="#wave" x="167" y="477"/>
+    <use href="#wave" x="1008" y="618"/><use href="#wave" x="1040" y="628"/>
+  </g>
+
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="600" y="77" fill="#e1c98e" font-size="12" letter-spacing="4">A DEVELOPER'S VOYAGE • EST. 2024</text>
+    <text x="600" y="119" fill="#f3e5bf" font-size="32" font-weight="bold" letter-spacing="2">THE GRAND LINE</text>
+    <text x="600" y="145" fill="#d2b978" font-size="15" letter-spacing="5">— MY JOURNEY —</text>
+    <path d="M425 157h350" stroke="url(#gold)" stroke-width="1"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" fill="#c6d2cf">
+    <text x="67" y="179" font-size="9" letter-spacing="2" fill="#88aeb2">NORTH BLUE</text>
+    <text x="1021" y="690" font-size="9" letter-spacing="2" fill="#88aeb2">SOUTH BLUE</text>
+    <text x="941" y="172" font-size="8" letter-spacing="1.5" fill="#88aeb2">UNCHARTED WATERS</text>
+    <text x="95" y="690" font-size="8" letter-spacing="1.5" fill="#88aeb2">LAT. 32° 08' N</text>
+  </g>
+
+  <g transform="translate(104 246)" text-anchor="middle" font-family="Georgia, serif">
+    <circle r="39" fill="#081a28" fill-opacity=".42" stroke="#c7ad72" stroke-opacity=".6"/>
+    <circle r="29" fill="none" stroke="#c7ad72" stroke-opacity=".45"/>
+    <path d="M0-33L5-4 0 0-5-4z" fill="#e0c47e"/>
+    <path d="M0 33L-4 4 0 0 4 4z" fill="#78949a"/>
+    <path d="M-33 0L-4-5 0 0-4 5zM33 0L4 5 0 0 4-5z" fill="#a5b1a2"/>
+    <circle r="3" fill="#f0d48a"/>
+    <text y="-45" fill="#e6d7b2" font-size="9">N</text>
+    <text y="53" fill="#b9c9c4" font-size="8">S</text>
+    <text x="-47" y="3" fill="#b9c9c4" font-size="8">W</text>
+    <text x="47" y="3" fill="#b9c9c4" font-size="8">E</text>
+  </g>
+
+  <g fill="none" stroke="#c7b37f" stroke-opacity=".35" stroke-width="1" stroke-dasharray="2 7">
+    <path d="M171 286C238 235 299 248 361 322"/>
+    <path d="M361 322C458 284 502 310 574 362"/>
+    <path d="M684 352C771 285 829 268 886 291"/>
+    <path d="M689 406C783 446 841 466 883 483"/>
+    <path d="M584 454C527 497 462 530 395 543"/>
+    <path d="M609 469C611 511 613 538 616 561"/>
+    <path d="M391 544C476 576 527 584 574 585"/>
+    <path d="M886 291C921 352 927 414 900 458"/>
+  </g>
+  <g fill="none" stroke="#e5bc69" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 9" marker-mid="url(#routeArrow)">
+    <path d="M171 286C238 235 299 248 361 322"/>
+    <path d="M361 322C458 284 502 310 574 362"/>
+    <path d="M684 352C771 285 829 268 886 291"/>
+    <path d="M689 406C783 446 841 466 883 483"/>
+    <path d="M584 454C527 497 462 530 395 543"/>
+    <path d="M609 469C611 511 613 538 616 561"/>
+    <path d="M391 544C476 576 527 584 574 585"/>
+    <path d="M886 291C921 352 927 414 900 458"/>
+    <animate attributeName="stroke-dashoffset" values="0;-52" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <g fill="#f4d588" stroke="#654c2c" stroke-width="1">
+    <circle cx="171" cy="286" r="4"/><circle cx="361" cy="322" r="4"/>
+    <circle cx="574" cy="362" r="4"/><circle cx="684" cy="352" r="4"/>
+    <circle cx="886" cy="291" r="4"/><circle cx="883" cy="483" r="4"/>
+    <circle cx="395" cy="543" r="4"/><circle cx="616" cy="561" r="4"/>
+  </g>
+  <g fill="#f0d083" fill-opacity=".92" stroke="#6b5734" stroke-width=".7">
+    <path d="M0-4l8 4-8 4 2-4z" transform="translate(269 262) rotate(14)"/>
+    <path d="M0-4l8 4-8 4 2-4z" transform="translate(470 307) rotate(28)"/>
+    <path d="M0-4l8 4-8 4 2-4z" transform="translate(781 302) rotate(-23)"/>
+    <path d="M0-4l8 4-8 4 2-4z" transform="translate(785 447) rotate(22)"/>
+    <path d="M0-4l8 4-8 4 2-4z" transform="translate(482 500) rotate(155)"/>
+    <path d="M0-4l8 4-8 4 2-4z" transform="translate(612 518) rotate(88)"/>
+    <path d="M0-4l8 4-8 4 2-4z" transform="translate(483 565) rotate(13)"/>
+    <path d="M0-4l8 4-8 4 2-4z" transform="translate(918 372) rotate(85)"/>
+  </g>
+
+  <g>
+    <path d="M449 367c12-37 52-59 89-47 20-37 69-49 105-28 41-15 80 7 91 44 31 19 34 56 7 79-14 36-55 51-89 38-31 25-76 23-101-2-42 14-83-8-91-43-25-4-31-23-11-41z" fill="#061521" opacity=".58" transform="translate(5 8)"/>
+    <path d="M444 360c12-37 52-59 89-47 20-37 69-49 105-28 41-15 80 7 91 44 31 19 34 56 7 79-14 36-55 51-89 38-31 25-76 23-101-2-42 14-83-8-91-43-25-4-31-23-11-41z" fill="url(#land)" stroke="#ddc991" stroke-width="2"/>
+    <path d="M449 357c14-32 49-51 81-40 24-36 67-43 99-23 36-12 69 7 78 39 26 19 27 47 5 68-16 31-52 43-82 29-29 22-68 20-88-3-36 12-70-7-77-37-15-3-22-13-16-25z" fill="none" stroke="url(#shoreLight)" stroke-width="3"/>
+    <path d="M462 359c17-30 47-42 74-31 22-34 62-44 91-25 34-12 62 7 68 35 25 15 26 39 6 57-12 27-43 38-70 27-26 20-62 17-80-4-31 10-60-7-65-33-20-4-25-16-24-26z" fill="#a1a378" opacity=".72"/>
+    <path d="M469 368c22-17 42-19 60-10m4 18c23-16 43-17 62-6m-106 36c22 8 41 5 57-7m66-56c20-11 38-9 53 5m-38 57c20 8 37 4 52-8" fill="none" stroke="#e6d39a" stroke-opacity=".46" stroke-width="1.2"/>
+    <path d="M495 350l37-59 20 24 28-45 26 36 27-24 34 53-32-14-23 23-33-14-31 23-24-15z" fill="url(#mountain)" stroke="#d9d0b1" stroke-opacity=".75" stroke-width="1.4"/>
+    <path d="M495 350l37-59 20 24 28-45 26 36 27-24 34 53-32-14-23 23-33-14-31 23-24-15z" fill="none" stroke="#fff0c8" stroke-opacity=".38" stroke-width="2"/>
+    <path d="M532 291l10 14 10-14 9 10 19-37 11 17 8-7 7 12 9-9 16 24-22-12-13 18-21-10-19 18-12-9z" fill="#e7dfc8" opacity=".88"/>
+    <path d="M502 376c28-16 47-16 68-4 20 12 38 11 56-3 15-12 29-11 45 0" fill="none" stroke="#e8d49a" stroke-width="3" stroke-opacity=".78"/>
+    <path d="M491 402c34 8 54 3 73-10 23-16 44-12 63 1 17 12 35 11 53 0" fill="none" stroke="#6b795c" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+    <g>
+      <use href="#tree" x="486" y="374"/><use href="#tree" x="478" y="386"/>
+      <use href="#tree" x="468" y="377"/><use href="#tree" x="552" y="401"/>
+      <use href="#tree" x="567" y="408"/><use href="#tree" x="621" y="402"/>
+      <use href="#tree" x="637" y="406"/><use href="#tree" x="686" y="382"/>
+      <use href="#tree" x="699" y="374"/><use href="#tree" x="673" y="394"/>
+    </g>
+    <path d="M579 420c17-7 34-6 47 4l-8 12h-35z" fill="#d8c18a" stroke="#725f3e"/>
+    <path d="M601 421v-14m0 1l14 7h-14" fill="none" stroke="#704e37" stroke-width="2"/>
+    <g text-anchor="middle" font-family="Georgia, serif">
+      <rect x="526" y="436" width="172" height="41" rx="5" fill="#081a27" fill-opacity=".96" stroke="#e5c777" stroke-width="1.2"/>
+      <path d="M534 440h156M534 473h156" stroke="#d0ad60" stroke-opacity=".55"/>
+      <text x="612" y="457" fill="#ffe7a4" font-size="19" font-weight="bold" letter-spacing="2">MY JOURNEY</text>
+      <text x="612" y="470" fill="#d5c28e" font-family="Arial, sans-serif" font-size="7.5" letter-spacing="2">LEARN • BUILD • EXPLORE</text>
+    </g>
+  </g>
+
+  <g>
+    <path d="M117 292c12-31 44-44 74-32 19-23 56-25 76-5 34-1 52 28 40 56-11 25-41 34-65 24-26 18-61 8-69-15-33 11-68-1-56-28z" fill="#071624" opacity=".55" transform="translate(4 7)"/>
+    <path d="M117 286c12-31 44-44 74-32 19-23 56-25 76-5 34-1 52 28 40 56-11 25-41 34-65 24-26 18-61 8-69-15-33 11-68-1-56-28z" fill="url(#landLight)" stroke="#ddc991" stroke-width="1.6"/>
+    <path d="M121 283c12-26 42-37 68-26 20-22 52-22 70-3 27 0 43 23 32 48-13 21-38 28-59 18-24 16-53 8-61-13-26 8-52-1-50-24z" fill="none" stroke="url(#shoreLight)" stroke-width="2.5"/>
+    <path d="M152 283l29-34 17 18 19-27 23 24 23-17 26 33-27-9-24 18-28-13-22 16-23-10z" fill="url(#mountain)" stroke="#d8ceae"/>
+    <path d="M152 283l29-34 17 18 19-27 23 24 23-17 26 33-27-9-24 18-28-13-22 16-23-10z" fill="none" stroke="#fff0c8" stroke-opacity=".42" stroke-width="1.5"/>
+    <path d="M181 249l8 10 11-12 7 10 10-17 9 13 8-6 14 19-18-8-17 12-14-10-17 11-13-5z" fill="#ebe4cf"/>
+    <g><use href="#tree" x="141" y="307"/><use href="#tree" x="153" y="313"/><use href="#tree" x="261" y="308"/><use href="#tree" x="276" y="300"/></g>
+    <path d="M144 301c14 6 24 6 35 0m55 7c14 6 26 5 38-2m-90 22c18 4 31 2 42-5" fill="none" stroke="#e6d39a" stroke-opacity=".4" stroke-width="1"/>
+    <rect x="132" y="303" width="132" height="38" rx="5" fill="#0b1d2b" fill-opacity=".95" stroke="#e0c57f" stroke-width="1"/>
+    <text x="198" y="319" text-anchor="middle" fill="#ffe8aa" font-family="Georgia, serif" font-size="12" font-weight="bold" letter-spacing="1">JAVA</text>
+    <text x="198" y="333" text-anchor="middle" fill="#d5d8ca" font-family="Arial, sans-serif" font-size="8.5">Backend Development</text>
+  </g>
+
+  <g>
+    <path d="M837 292c14-32 47-43 74-28 21-24 58-19 73 6 31 5 41 36 21 59-16 22-47 26-67 10-25 15-58 2-63-22-30 5-52-6-38-25z" fill="#071624" opacity=".55" transform="translate(4 7)"/>
+    <path d="M837 286c14-32 47-43 74-28 21-24 58-19 73 6 31 5 41 36 21 59-16 22-47 26-67 10-25 15-58 2-63-22-30 5-52-6-38-25z" fill="url(#landLight)" stroke="#ddc991" stroke-width="1.6"/>
+    <path d="M840 282c13-27 44-37 68-24 21-22 52-18 68 5 27 4 36 28 17 48-14 19-39 22-58 7-22 13-50 2-55-18-26 3-45-4-40-18z" fill="none" stroke="url(#shoreLight)" stroke-width="2.5"/>
+    <path d="M858 286l29-30 14 17 26-25 20 22 22-12 24 31-31-8-23 14-23-13-20 13-21-8z" fill="url(#mountain)" stroke="#d8ceae"/>
+    <path d="M858 286l29-30 14 17 26-25 20 22 22-12 24 31-31-8-23 14-23-13-20 13-21-8z" fill="none" stroke="#fff0c8" stroke-opacity=".42" stroke-width="1.5"/>
+    <path d="M887 256l10 10 7-8 8 7 15-17 8 13 10-7 13 16-19-6-14 10-15-8-15 9-14-5z" fill="#ebe4cf"/>
+    <path d="M854 298c17 5 31 5 46-2m57 8c14 4 27 1 37-6m-85 21c16 5 30 3 42-5" fill="none" stroke="#e6d39a" stroke-opacity=".4" stroke-width="1"/>
+    <g><use href="#tree" x="850" y="301"/><use href="#tree" x="984" y="300"/><use href="#tree" x="969" y="310"/></g>
+    <rect x="832" y="295" width="172" height="39" rx="5" fill="#0b1d2b" fill-opacity=".96" stroke="#e0c57f" stroke-width="1"/>
+    <text x="918" y="311" text-anchor="middle" fill="#ffe8aa" font-family="Georgia, serif" font-size="11.5" font-weight="bold" letter-spacing=".4">JAVASCRIPT &amp; REACT</text>
+    <text x="918" y="326" text-anchor="middle" fill="#d5d8ca" font-family="Arial, sans-serif" font-size="8.5">Frontend Development</text>
+  </g>
+
+  <g>
+    <path d="M834 479c14-30 46-40 73-26 19-22 53-20 71 3 31 1 44 30 28 53-13 20-42 27-64 12-23 17-56 8-65-14-29 9-54-4-43-28z" fill="#071624" opacity=".55" transform="translate(4 7)"/>
+    <path d="M834 473c14-30 46-40 73-26 19-22 53-20 71 3 31 1 44 30 28 53-13 20-42 27-64 12-23 17-56 8-65-14-29 9-54-4-43-28z" fill="url(#landLight)" stroke="#ddc991" stroke-width="1.6"/>
+    <path d="M837 470c13-25 43-34 67-23 19-19 48-17 64 4 26 1 37 24 23 42-12 17-37 22-56 9-21 14-48 7-55-12-24 6-45-3-43-20z" fill="none" stroke="url(#shoreLight)" stroke-width="2.5"/>
+    <path d="M858 473l24-27 16 15 23-21 17 19 19-10 23 28-26-7-20 13-23-11-20 12-19-8z" fill="url(#mountain)" stroke="#d8ceae"/>
+    <path d="M858 473l24-27 16 15 23-21 17 19 19-10 23 28-26-7-20 13-23-11-20 12-19-8z" fill="none" stroke="#fff0c8" stroke-opacity=".42" stroke-width="1.5"/>
+    <path d="M883 446l8 9 8-8 9 7 13-16 8 12 9-6 12 14-17-5-13 9-15-7-13 8-12-5z" fill="#ebe4cf"/>
+    <path d="M850 484c17 6 30 4 44-4m55 12c12 5 24 4 33-3" fill="none" stroke="#e6d39a" stroke-opacity=".4" stroke-width="1"/>
+    <g><use href="#tree" x="852" y="497"/><use href="#tree" x="970" y="496"/></g>
+    <rect x="856" y="484" width="110" height="39" rx="5" fill="#0b1d2b" fill-opacity=".96" stroke="#e0c57f" stroke-width="1"/>
+    <text x="911" y="500" text-anchor="middle" fill="#ffe8aa" font-family="Georgia, serif" font-size="11.5" font-weight="bold" letter-spacing=".5">SALESFORCE</text>
+    <text x="911" y="515" text-anchor="middle" fill="#d5d8ca" font-family="Arial, sans-serif" font-size="8.5">CRM Development</text>
+  </g>
+
+  <g>
+    <path d="M288 541c13-30 43-40 70-26 19-20 51-18 68 4 29 1 42 29 26 51-13 19-41 25-61 10-23 15-53 6-61-15-28 8-52-4-42-24z" fill="#071624" opacity=".55" transform="translate(4 7)"/>
+    <path d="M288 535c13-30 43-40 70-26 19-20 51-18 68 4 29 1 42 29 26 51-13 19-41 25-61 10-23 15-53 6-61-15-28 8-52-4-42-24z" fill="url(#landLight)" stroke="#ddc991" stroke-width="1.6"/>
+    <path d="M291 532c12-25 40-35 64-23 19-19 46-17 60 4 25 0 36 23 22 41-12 16-35 21-53 8-21 13-47 6-54-12-23 6-42-2-39-18z" fill="none" stroke="url(#shoreLight)" stroke-width="2.5"/>
+    <path d="M313 534l24-27 15 15 23-22 18 19 19-11 22 28-25-7-20 12-22-11-19 12-18-7z" fill="url(#mountain)" stroke="#d8ceae"/>
+    <path d="M313 534l24-27 15 15 23-22 18 19 19-11 22 28-25-7-20 12-22-11-19 12-18-7z" fill="none" stroke="#fff0c8" stroke-opacity=".42" stroke-width="1.5"/>
+    <path d="M339 507l8 9 8-8 8 7 13-17 8 13 10-6 12 15-17-6-13 10-15-8-13 9-12-5z" fill="#ebe4cf"/>
+    <path d="M309 547c14 5 25 4 37-3m51 13c14 3 25 1 36-5" fill="none" stroke="#e6d39a" stroke-opacity=".4" stroke-width="1"/>
+    <g><use href="#tree" x="303" y="556"/><use href="#tree" x="432" y="555"/></g>
+    <path d="M423 553c12-11 25-11 37 0-10 10-27 10-37 0z" fill="#c5a85f" stroke="#775b34"/>
+    <path d="M432 545v17m-6-14h14" stroke="#73572e" stroke-width="1.3"/>
+    <rect x="309" y="550" width="108" height="39" rx="5" fill="#0b1d2b" fill-opacity=".96" stroke="#e0c57f" stroke-width="1"/>
+    <text x="363" y="566" text-anchor="middle" fill="#ffe8aa" font-family="Georgia, serif" font-size="11.5" font-weight="bold" letter-spacing=".5">AWS CLOUD</text>
+    <text x="363" y="581" text-anchor="middle" fill="#d5d8ca" font-family="Arial, sans-serif" font-size="8.5">Cloud Computing</text>
+  </g>
+
+  <g>
+    <path d="M544 583c12-30 43-41 70-27 20-22 53-19 70 4 29 1 42 30 25 52-13 19-41 24-61 9-24 15-55 5-62-16-29 9-52-3-42-22z" fill="#071624" opacity=".55" transform="translate(4 7)"/>
+    <path d="M544 577c12-30 43-41 70-27 20-22 53-19 70 4 29 1 42 30 25 52-13 19-41 24-61 9-24 15-55 5-62-16-29 9-52-3-42-22z" fill="url(#landLight)" stroke="#ddc991" stroke-width="1.6"/>
+    <path d="M547 574c11-25 40-35 63-24 20-20 48-16 62 5 26 1 37 24 22 42-12 16-36 20-54 7-21 13-49 6-56-13-25 7-42-2-37-17z" fill="none" stroke="url(#shoreLight)" stroke-width="2.5"/>
+    <path d="M566 577l24-28 16 16 23-22 18 19 18-11 22 29-25-8-19 13-22-12-18 12-18-8z" fill="url(#mountain)" stroke="#d8ceae"/>
+    <path d="M566 577l24-28 16 16 23-22 18 19 18-11 22 29-25-8-19 13-22-12-18 12-18-8z" fill="none" stroke="#fff0c8" stroke-opacity=".42" stroke-width="1.5"/>
+    <path d="M592 549l8 10 8-8 8 7 13-17 8 13 10-6 12 15-17-6-13 10-15-8-13 9-12-5z" fill="#ebe4cf"/>
+    <path d="M557 589c15 5 27 3 39-5m57 7c13 4 24 1 34-5" fill="none" stroke="#e6d39a" stroke-opacity=".4" stroke-width="1"/>
+    <g><use href="#tree" x="557" y="594"/><use href="#tree" x="687" y="591"/></g>
+    <circle cx="619" cy="582" r="10" fill="#243f4b" stroke="#e1c782" stroke-width="1"/>
+    <path d="M619 576v12m-5-6h10m-9-4l8 8m0-8l-8 8" stroke="#e1c782" stroke-width="1"/>
+    <rect x="535" y="598" width="172" height="43" rx="5" fill="#0b1d2b" fill-opacity=".97" stroke="#e0c57f" stroke-width="1"/>
+    <text x="621" y="615" text-anchor="middle" fill="#ffe8aa" font-family="Georgia, serif" font-size="12" font-weight="bold" letter-spacing=".7">AI RESEARCH</text>
+    <text x="621" y="630" text-anchor="middle" fill="#d5d8ca" font-family="Arial, sans-serif" font-size="8">Exploring Intelligent Solutions</text>
+  </g>
+
+  <g fill="#e6e2d1" opacity=".72">
+    <path d="M752 236c8-11 24-10 30 1 11-5 21 2 19 11h-52c-6-4-4-10 3-12z"/>
+    <path d="M394 473c7-9 21-8 26 1 10-4 18 2 16 10h-46c-5-4-3-9 4-11z"/>
+    <path d="M1001 546c6-8 18-7 23 1 8-3 15 2 14 9h-41c-4-3-2-8 4-10z"/>
+  </g>
+
+  <g transform="translate(768 501)">
+    <path d="M0 0h44l-9 18H9z" fill="#342b23" stroke="#d9bd7a" stroke-width="1.2"/>
+    <path d="M20 0v-30l18 25H20m-3-5L5-23v23h12" fill="#d4c090" stroke="#473c2c" stroke-width="1"/>
+    <path d="M-5 21q23 8 51 0" fill="none" stroke="#8bb4bb" stroke-opacity=".65" stroke-width="1.5"/>
+    <path d="M32 10h7" stroke="#f1d082" stroke-width="2"/>
+  </g>
+  <g transform="translate(422 268) scale(.72)">
+    <path d="M0 0h44l-9 18H9z" fill="#342b23" stroke="#d9bd7a" stroke-width="1.2"/>
+    <path d="M20 0v-30l18 25H20m-3-5L5-23v23h12" fill="#d4c090" stroke="#473c2c" stroke-width="1"/>
+    <path d="M-5 21q23 8 51 0" fill="none" stroke="#8bb4bb" stroke-opacity=".65" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(1086 275)" text-anchor="middle" font-family="Georgia, serif">
+    <path d="M0-23c-12 0-18 14-11 23C-4 9 4 15 0 25-4 15 4 9 11 0 18-9 12-23 0-23z" fill="none" stroke="#dfc17b" stroke-opacity=".72"/>
+    <path d="M0-17L4-2 0 2-4-2z" fill="#e4c981"/>
+    <path d="M0 17l-2-13 2-2 2 2z" fill="#91aaab"/>
+    <text y="-33" fill="#dec98f" font-size="8" letter-spacing="1">WAYPOINT</text>
+  </g>
+
+  <g transform="translate(1110 655)" font-family="Georgia, serif" text-anchor="middle">
+    <path d="M-22 0h44M0-22v44M-15-15l30 30m0-30L-15 15" stroke="#d0b778" stroke-opacity=".7" stroke-width="1"/>
+    <circle r="17" fill="none" stroke="#d0b778" stroke-opacity=".6"/>
+    <path d="M0-19L4-3 0 0-4-3z" fill="#e2c77f"/>
+    <text y="33" fill="#b8aa85" font-size="7" letter-spacing="1">LOG POSE</text>
+  </g>
+
+  <g transform="translate(67 714)" font-family="Arial, sans-serif">
+    <path d="M0 0h42m0 0h42" stroke="#d5bd85" stroke-width="2"/>
+    <path d="M0-4v8m42-8v8m42-8v8" stroke="#d5bd85" stroke-width="1"/>
+    <text x="0" y="-8" fill="#d5bd85" font-size="7">0</text>
+    <text x="39" y="-8" fill="#d5bd85" font-size="7">250</text>
+    <text x="78" y="-8" fill="#d5bd85" font-size="7">500 NM</text>
+  </g>
+
+  <g text-anchor="middle" font-family="Arial, sans-serif">
+    <text x="600" y="696" fill="#d6c18b" font-size="9" letter-spacing="2">FOLLOW THE GOLD • FIND WHAT'S NEXT</text>
+  </g>
+
+  <rect x="34" y="34" width="1132" height="692" rx="10" fill="none" stroke="#d9c18a" stroke-opacity=".62" stroke-width="1.2"/>
+  <rect x="25" y="25" width="1150" height="710" rx="13" fill="none" stroke="#68583a" stroke-width="3"/>
+  <g fill="#e3cc91" stroke="#493a29" stroke-width="1">
+    <circle cx="42" cy="42" r="3"/><circle cx="1158" cy="42" r="3"/>
+    <circle cx="42" cy="718" r="3"/><circle cx="1158" cy="718" r="3"/>
+  </g>
+</svg>
