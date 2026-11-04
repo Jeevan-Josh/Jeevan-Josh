@@ -8,13 +8,7 @@
 <div align="center">
   <img src="about.svg" width="100%" alt="The Grand Line — My Journey" />
 </div>
-<div align="center">
-  <img
-    src="https://raw.githubusercontent.com/Jeevan-Josh/Jeevan-Josh/main/assets/pirate-avatar-reference-removebg-preview.png"
-    width="300"
-    alt="Developer Pirate Character"
-  />
-</div>
+
 ## Hi there 👋
 
 <!--
