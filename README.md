@@ -9,9 +9,14 @@
   <img src="about.svg" width="100%" alt="The Grand Line — My Journey" />
 </div>
 <div align="center">
-  <img src="about.svg" width="100%" alt="The Grand Line — My Journey" />
+  <h2>📖 THE CAPTAIN'S LOG</h2>
+  <p><i>A record of my journey across the Grand Line of Technology</i></p>
+  <img
+    src="https://raw.githubusercontent.com/Jeevan-Josh/Jeevan-Josh/main/logbook.gif"
+    width="100%"
+    alt="Captain's Log — The Developer's Voyage"
+  />
 </div>
-
 ## Hi there 👋
 
 <!--
