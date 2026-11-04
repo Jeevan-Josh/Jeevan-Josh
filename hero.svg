@@ -1,0 +1,49 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
+  <defs>
+    <linearGradient id="ocean" x2="1" y2="1">
+      <stop stop-color="#071827"/>
+      <stop offset="1" stop-color="#25152e"/>
+    </linearGradient>
+    <linearGradient id="gold">
+      <stop stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="420" rx="24" fill="url(#ocean)"/>
+
+  <circle cx="780" cy="200" r="180" fill="#22d3ee" opacity=".08"/>
+
+  <text x="55" y="65" fill="#67e8f9" font-size="14"
+        font-family="Arial">● OPEN TO OPPORTUNITIES</text>
+
+  <text x="55" y="135" fill="white" font-size="25"
+        font-family="Arial">Ahoy! I'm</text>
+
+  <text x="55" y="195" fill="url(#gold)" font-size="54"
+        font-weight="bold" font-family="Arial">Jeevan Josh</text>
+
+  <text x="55" y="245" fill="#67e8f9" font-size="24"
+        font-family="Arial">Full Stack Developer</text>
+
+  <text x="55" y="280" fill="#c4b5fd" font-size="19"
+        font-family="Arial">Cloud &amp; AI Enthusiast</text>
+
+  <text x="55" y="330" fill="#cbd5e1" font-size="15"
+        font-family="Arial">Java • JavaScript • React • Salesforce • AWS</text>
+
+  <text x="55" y="375" fill="#fbbf24" font-size="14"
+        font-family="Arial">THE GRAND LINE • MY DEVELOPER VOYAGE</text>
+
+  <image href="https://raw.githubusercontent.com/Jeevan-Josh/Jeevan-Josh/main/assets/pirate-avatar-reference-removebg-preview.png"
+         x="625" y="25" width="330" height="370"
+         preserveAspectRatio="xMidYMid meet"/>
+
+  <path d="M0 400 Q250 360 500 400 T1000 400"
+        stroke="#22d3ee" fill="none" stroke-width="3">
+    <animate attributeName="d"
+      values="M0 400 Q250 360 500 400 T1000 400;M0 400 Q250 420 500 400 T1000 400;M0 400 Q250 360 500 400 T1000 400"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+</svg>
