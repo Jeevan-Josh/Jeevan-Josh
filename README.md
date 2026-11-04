@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="hero.svg" width="100%" alt="Jeevan Josh - The Developer Pirate" />
+</div>
 ## Hi there 👋
 
 <!--
